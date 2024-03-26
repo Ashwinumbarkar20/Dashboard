@@ -17,7 +17,6 @@ export default function Content() {
       elevation={10}
       sx={{
         width: "93%",
-        border: "2px solid red ",
         display: "flex",
         justifyContent: "flex-start",
         alignItems: "center",

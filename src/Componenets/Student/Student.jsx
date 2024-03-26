@@ -6,6 +6,7 @@ import { Button, FormControl, Paper } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import InputLabel from "@mui/material/InputLabel";
 import Progressbar from "../Progress/Progressbar";
+import studentpic from '../../../public/profile.avif'
 import "./Student.css";
 export default function Student() {
   let topics = { total: "55", completed: "20" };
@@ -25,7 +26,7 @@ export default function Student() {
         <div className="Student_info">
           <div className="Student">
             <div className="Student_profile">
-              <img src="sdfsdf" alt="Student-Picture" />
+              <img className="studentimg"src={studentpic} alt="Student-Picture" />
             </div>
             <div className="Student-details">
               <p className="Student_name">Student Name</p>
