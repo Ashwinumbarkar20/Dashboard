@@ -1,0 +1,23 @@
+.Card {
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 0 4 rgba(0, 0, 0, 0.3);
+}
+.CardData {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.value {
+  color: #0d47a1;
+  font-weight: bolder;
+}
+.Card-title {
+  color: rgba(0, 0, 0, 0.6);
+}

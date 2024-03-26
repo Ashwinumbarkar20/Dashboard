@@ -1,0 +1,19 @@
+.Title {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px 10px;
+  background-color: red;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+}
+.Card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,43 @@
+.Student_info {
+  background-color: #eeeeee;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 18px;
+}
+.Student {
+  background-color: #eeeeee;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.Student_profile {
+  height: 100px;
+  width: 100px;
+}
+.Student-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  width: 40%;
+}
+.Student-acadimics {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.Student_name {
+  font-weight: Bold;
+}

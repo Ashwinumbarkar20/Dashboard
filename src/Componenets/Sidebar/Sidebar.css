@@ -1,0 +1,41 @@
+.Sidebar-div {
+  margin-top: 10px;
+  background-color: #1565c0;
+  width: 120px;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.menu-item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 10px;
+  padding: 10px;
+  height: 80px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+.menu-item:hover {
+  transform: scale(1.05);
+  background-color: #0d47a1;
+  border-bottom: 2px solid #fff;
+}
